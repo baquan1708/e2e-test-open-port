@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node index.js",
-    "test:e2e": "jest --config ./test/jest-e2e.json --runInBand"
+    "test:e2e": "jest --config ./test/jest-e2e.json --runInBand",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.21.0"

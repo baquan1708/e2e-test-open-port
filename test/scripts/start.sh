@@ -1,4 +1,6 @@
 #!/bin/bash
+rm *.out.txt
+
 npm run start > sls.out.txt 2>&1 &
 
 # Check serverless is running
